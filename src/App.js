@@ -16,7 +16,7 @@ import SignUp from "./components/SignUp";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/ecommerce">
       <Header />
       <Routes>
         <Route path="/" element ={<Home/>} />
